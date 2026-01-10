@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MagazineModResource" load_steps=2 format=3 uid="uid://8jiruayuc5pv"]
+
+[ext_resource type="Script" path="res://Scripts/WeaponMods/MagazineModResource.cs" id="1_j2a5p"]
+
+[resource]
+script = ExtResource("1_j2a5p")
+Id = "mod_increased_magazine"
+DisplayName = "Increased Magazine"
+Description = "increase magzine size with the cost of reload speed"
+DamageMultiplier = 1.0
+FireRateMultiplier = 1.0
+ReloadSpeedMultiplier = 1.1
+ExtraAmmo = 4
+ExtraPierce = 0
+ExtraBulletsPerShot = 0
+SpreadBonus = 0.0
+ProjectileSpeedMultiplier = 1.0
+UnlockMapId = "map1"
+UnlockRound = 15

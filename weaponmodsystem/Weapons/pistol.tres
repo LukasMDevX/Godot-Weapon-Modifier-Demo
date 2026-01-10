@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3 uid="uid://cxpg4tlj13g11"]
+
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponData.cs" id="1_050kn"]
+
+[resource]
+script = ExtResource("1_050kn")
+Id = "wep_pistol"
+WeaponName = "Pistol"
+isPistol = true
+Damage = 4.0
+Pierce = 0
+ProjectilesPerShot = 1
+Spread = 0.0
+ProjectileSpeed = 30.0
+FireRate = 5.0
+ClipSize = 8
+ReloadTime = 0.8
+isCursedVersion = false

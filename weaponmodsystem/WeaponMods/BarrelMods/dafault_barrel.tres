@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="BarrelModResource" load_steps=2 format=3 uid="uid://bheqw4prar80t"]
+
+[ext_resource type="Script" path="res://Scripts/WeaponMods/BarrelModResource.cs" id="1_np5sw"]
+
+[resource]
+script = ExtResource("1_np5sw")
+Id = "default_barrel"
+DisplayName = "Default Barrel"
+Description = "default barrel"
+DamageMultiplier = 1.0
+FireRateMultiplier = 1.0
+ReloadSpeedMultiplier = 1.0
+ExtraAmmo = 0
+ExtraPierce = 0
+ExtraBulletsPerShot = 0
+SpreadBonus = 0.0
+ProjectileSpeedMultiplier = 1.0
+UnlockMapId = "map1"
+UnlockRound = 15

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CoreModResource" load_steps=2 format=3 uid="uid://cuvc67dasw380"]
+
+[ext_resource type="Script" path="res://Scripts/WeaponMods/CoreModResource.cs" id="1_hsvta"]
+
+[resource]
+script = ExtResource("1_hsvta")
+Id = "default_core"
+DisplayName = "Default Core"
+Description = "default core"
+DamageMultiplier = 1.0
+FireRateMultiplier = 1.0
+ReloadSpeedMultiplier = 1.0
+ExtraAmmo = 0
+ExtraPierce = 0
+ExtraBulletsPerShot = 0
+SpreadBonus = 0.0
+ProjectileSpeedMultiplier = 1.0
+UnlockMapId = "map1"
+UnlockRound = 15

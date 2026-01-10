@@ -1,0 +1,102 @@
+[gd_scene load_steps=17 format=3 uid="uid://chdlujoeccwg8"]
+
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponLoadoutController.cs" id="1_krrj2"]
+[ext_resource type="Script" path="res://Scripts/UI/MagazineModOptionButton.cs" id="1_s8qoo"]
+[ext_resource type="Script" path="res://Scripts/Weapon/Weapon.cs" id="1_va4gi"]
+[ext_resource type="Script" path="res://Scripts/UI/CoreModOptionButton.cs" id="2_3v3e7"]
+[ext_resource type="Resource" uid="uid://c624xa1kbtwgp" path="res://WeaponMods/MagazineMods/deafault_magazine.tres" id="2_24l8i"]
+[ext_resource type="Resource" uid="uid://cxpg4tlj13g11" path="res://Weapons/pistol.tres" id="2_fwbny"]
+[ext_resource type="Resource" uid="uid://8jiruayuc5pv" path="res://WeaponMods/MagazineMods/increased_magazine.tres" id="3_jybdx"]
+[ext_resource type="Script" path="res://Scripts/UI/BarrelModOptionButton.cs" id="3_sq7ib"]
+[ext_resource type="Resource" uid="uid://b751tc3vi1vdn" path="res://WeaponMods/MagazineMods/quick_magazine.tres" id="4_lnj1w"]
+[ext_resource type="Script" path="res://Scripts/Demo/DemoTargetDummy.cs" id="4_vpscn"]
+[ext_resource type="Resource" uid="uid://cuvc67dasw380" path="res://WeaponMods/CoreMods/default_core.tres" id="6_nl0vt"]
+[ext_resource type="Resource" uid="uid://b8emxjvnbu1dl" path="res://WeaponMods/CoreMods/fast_firing_core.tres" id="7_ojguk"]
+[ext_resource type="Resource" uid="uid://no7pvakigoq7" path="res://WeaponMods/CoreMods/hard_shells_core.tres" id="8_pavn4"]
+[ext_resource type="Resource" uid="uid://bheqw4prar80t" path="res://WeaponMods/BarrelMods/dafault_barrel.tres" id="10_mpvjp"]
+[ext_resource type="Resource" uid="uid://dx3co45bdwc6e" path="res://WeaponMods/BarrelMods/precision_barrel.tres" id="11_8vnum"]
+[ext_resource type="Resource" uid="uid://bqnue6s56br4t" path="res://WeaponMods/BarrelMods/chaos_barrel.tres" id="12_lvvjx"]
+
+[node name="DemoScene" type="Node"]
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="ShootButton" type="Button" parent="UI"]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 0
+offset_left = 482.0
+offset_top = 88.0
+offset_right = 682.0
+offset_bottom = 188.0
+text = "Shoot"
+
+[node name="MagazineModOptionButton" type="OptionButton" parent="UI" node_paths=PackedStringArray("loadout")]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 0
+offset_left = 826.0
+offset_top = 48.0
+offset_right = 1126.0
+offset_bottom = 148.0
+selected = 0
+item_count = 3
+popup/item_0/text = "Default Magazine"
+popup/item_1/text = "Increased Magazine"
+popup/item_1/id = 1
+popup/item_2/text = "Quick Magazine"
+popup/item_2/id = 2
+script = ExtResource("1_s8qoo")
+loadout = NodePath("../../WeaponLoadoutController")
+availableMods = Array[Object]([ExtResource("2_24l8i"), ExtResource("3_jybdx"), ExtResource("4_lnj1w")])
+
+[node name="CoreModOptionButton" type="OptionButton" parent="UI" node_paths=PackedStringArray("loadout")]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 0
+offset_left = 826.0
+offset_top = 169.0
+offset_right = 1126.0
+offset_bottom = 269.0
+selected = 0
+item_count = 3
+popup/item_0/text = "Default Core"
+popup/item_1/text = "Fast Firing Core"
+popup/item_1/id = 1
+popup/item_2/text = "Damage Core"
+popup/item_2/id = 2
+script = ExtResource("2_3v3e7")
+loadout = NodePath("../../WeaponLoadoutController")
+availableMods = Array[Object]([ExtResource("6_nl0vt"), ExtResource("7_ojguk"), ExtResource("8_pavn4")])
+
+[node name="BarrelModOptionButton" type="OptionButton" parent="UI" node_paths=PackedStringArray("loadout")]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 0
+offset_left = 826.0
+offset_top = 293.0
+offset_right = 1126.0
+offset_bottom = 393.0
+selected = 0
+item_count = 3
+popup/item_0/text = "Default Barrel"
+popup/item_1/text = "Precision Barrel"
+popup/item_1/id = 1
+popup/item_2/text = "Chaos Barrel"
+popup/item_2/id = 2
+script = ExtResource("3_sq7ib")
+loadout = NodePath("../../WeaponLoadoutController")
+availableMods = Array[Object]([ExtResource("10_mpvjp"), ExtResource("11_8vnum"), ExtResource("12_lvvjx")])
+
+[node name="WeaponLoadoutController" type="Node" parent="." node_paths=PackedStringArray("weapon")]
+script = ExtResource("1_krrj2")
+weapon = NodePath("../DemoWeapon")
+
+[node name="DemoWeapon" type="Node3D" parent="."]
+script = ExtResource("1_va4gi")
+weaponData = ExtResource("2_fwbny")
+
+[node name="DemoTargetDummy" type="Node3D" parent="."]
+script = ExtResource("4_vpscn")
+
+[connection signal="pressed" from="UI/ShootButton" to="DemoWeapon" method="_on_shoot_button_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://chdlujoeccwg8"]
+[gd_scene load_steps=18 format=3 uid="uid://chdlujoeccwg8"]
 
 [ext_resource type="Script" path="res://Scripts/Weapon/WeaponLoadoutController.cs" id="1_krrj2"]
 [ext_resource type="Script" path="res://Scripts/UI/MagazineModOptionButton.cs" id="1_s8qoo"]
@@ -16,6 +16,7 @@
 [ext_resource type="Resource" uid="uid://bheqw4prar80t" path="res://WeaponMods/BarrelMods/dafault_barrel.tres" id="10_mpvjp"]
 [ext_resource type="Resource" uid="uid://dx3co45bdwc6e" path="res://WeaponMods/BarrelMods/precision_barrel.tres" id="11_8vnum"]
 [ext_resource type="Resource" uid="uid://bqnue6s56br4t" path="res://WeaponMods/BarrelMods/chaos_barrel.tres" id="12_lvvjx"]
+[ext_resource type="Script" path="res://Scripts/UI/DebugUi.cs" id="13_k75lm"]
 
 [node name="DemoScene" type="Node"]
 
@@ -51,6 +52,7 @@ popup/item_2/id = 2
 script = ExtResource("1_s8qoo")
 loadout = NodePath("../../WeaponLoadoutController")
 availableMods = Array[Object]([ExtResource("2_24l8i"), ExtResource("3_jybdx"), ExtResource("4_lnj1w")])
+weaponPath = NodePath("../../DemoWeapon")
 
 [node name="CoreModOptionButton" type="OptionButton" parent="UI" node_paths=PackedStringArray("loadout")]
 custom_minimum_size = Vector2(300, 100)
@@ -69,6 +71,7 @@ popup/item_2/id = 2
 script = ExtResource("2_3v3e7")
 loadout = NodePath("../../WeaponLoadoutController")
 availableMods = Array[Object]([ExtResource("6_nl0vt"), ExtResource("7_ojguk"), ExtResource("8_pavn4")])
+weaponPath = NodePath("../../DemoWeapon")
 
 [node name="BarrelModOptionButton" type="OptionButton" parent="UI" node_paths=PackedStringArray("loadout")]
 custom_minimum_size = Vector2(300, 100)
@@ -87,16 +90,51 @@ popup/item_2/id = 2
 script = ExtResource("3_sq7ib")
 loadout = NodePath("../../WeaponLoadoutController")
 availableMods = Array[Object]([ExtResource("10_mpvjp"), ExtResource("11_8vnum"), ExtResource("12_lvvjx")])
+weaponPath = NodePath("../../DemoWeapon")
+
+[node name="DebugUI" type="Control" parent="UI" node_paths=PackedStringArray("DamageLabel", "TargetDummyLabel", "WeaponStatsLabel")]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("13_k75lm")
+DamageLabel = NodePath("WeaponDebugLabel")
+TargetDummyLabel = NodePath("TargetDummyDebugLabel")
+WeaponStatsLabel = NodePath("WeaponStatsDebugLabel")
+
+[node name="WeaponDebugLabel" type="Label" parent="UI/DebugUI"]
+layout_mode = 0
+offset_left = 482.0
+offset_top = 204.0
+offset_right = 682.0
+offset_bottom = 235.0
+
+[node name="TargetDummyDebugLabel" type="Label" parent="UI/DebugUI"]
+layout_mode = 0
+offset_left = 482.0
+offset_top = 264.0
+offset_right = 682.0
+offset_bottom = 324.0
+
+[node name="WeaponStatsDebugLabel" type="Label" parent="UI/DebugUI"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 290.0
+offset_bottom = 390.0
 
 [node name="WeaponLoadoutController" type="Node" parent="." node_paths=PackedStringArray("weapon")]
 script = ExtResource("1_krrj2")
 weapon = NodePath("../DemoWeapon")
+baseWeaponData = ExtResource("2_fwbny")
 
 [node name="DemoWeapon" type="Node3D" parent="."]
 script = ExtResource("1_va4gi")
-weaponData = ExtResource("2_fwbny")
+baseWeaponData = ExtResource("2_fwbny")
+TargetPath = NodePath("../DemoTargetDummy")
+DebugUIPath = NodePath("../UI/DebugUI")
 
 [node name="DemoTargetDummy" type="Node3D" parent="."]
 script = ExtResource("4_vpscn")
+DebugUIPath = NodePath("../UI/DebugUI")
 
 [connection signal="pressed" from="UI/ShootButton" to="DemoWeapon" method="_on_shoot_button_pressed"]

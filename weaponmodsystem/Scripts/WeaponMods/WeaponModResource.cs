@@ -33,5 +33,7 @@ public partial class WeaponModResource : Resource
         weapon.ClipSize += ExtraAmmo;
         weapon.Pierce += ExtraPierce;
         weapon.ProjectilesPerShot += ExtraBulletsPerShot;
+        weapon.ProjectileSpeed *= ProjectileSpeedMultiplier;
+        weapon.Spread += SpreadBonus;
     }
 }

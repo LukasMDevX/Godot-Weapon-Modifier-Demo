@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public partial class WeaponLoadoutController : Node
 {
     [Export] public Weapon weapon;
+    [Export] public WeaponData baseWeaponData;
 
     private CoreModResource coreMod;
     private BarrelModResource barrelMod;
@@ -30,12 +31,10 @@ public partial class WeaponLoadoutController : Node
 
     private void Apply()
     {
-        var mods = new List<WeaponModResource>();
+        baseWeaponData.CoreMod = coreMod;
+        baseWeaponData.BarrelMod = barrelMod;
+        baseWeaponData.MagazineMod = magazineMod;
 
-        if (coreMod != null) mods.Add(coreMod);
-        if (barrelMod != null) mods.Add(barrelMod);
-        if (magazineMod != null) mods.Add(magazineMod);
-
-        weapon.ApplyMods(mods);
+        weapon.RebuildWeaponData();
     }
 }

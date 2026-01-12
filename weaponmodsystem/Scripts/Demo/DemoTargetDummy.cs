@@ -1,15 +1,33 @@
 using Godot;
 using System;
 
-public partial class DemoTargetDummy : Node3D
+public partial class DemoTargetDummy : Node3D, IDamageable
 {
-	// Called when the node enters the scene tree for the first time.
-	public override void _Ready()
-	{
-	}
+    [Export] public float MaxHealth = 100f;
+    private float _currentHealth;
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
+    [Export] public NodePath DebugUIPath;
+    private DebugUi _debugUI;
+
+    public override void _Ready()
+    {
+        _currentHealth = MaxHealth;
+        _debugUI = GetNodeOrNull<DebugUi>(DebugUIPath);
+        UpdateLabel();
+    }
+
+    public void ApplyDamage(float amount)
+    {
+        _currentHealth -= amount;
+        _currentHealth = Mathf.Max(_currentHealth, 0);
+
+        UpdateLabel();
+
+        GD.Print($"Dummy took {amount} damage");
+    }
+
+    private void UpdateLabel()
+    {
+        _debugUI.UpdateTargetDummyLabel(_currentHealth, MaxHealth);
+    }
 }

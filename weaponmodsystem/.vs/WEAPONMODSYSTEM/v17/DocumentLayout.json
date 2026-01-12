@@ -7,24 +7,44 @@
       "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weapon\\weaponloadoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weapon\\weaponloadoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\ui\\coremodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\ui\\coremodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weapon\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weapon\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weaponmods\\weaponmodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weaponmods\\weaponmodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weaponmods\\magazinemodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weaponmods\\magazinemodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weaponmods\\weaponmodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weaponmods\\weaponmodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\DebugUi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\UI\\DebugUi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weapon\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weapon\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\ui\\barrelmodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\ui\\barrelmodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\ui\\coremodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\ui\\coremodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\ui\\magazinemodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\ui\\magazinemodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weapon\\weaponloadoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weapon\\weaponloadoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\demo\\demotargetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\demo\\demotargetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weaponmods\\barrelmodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\weaponmods\\coremodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\weaponmods\\coremodresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\ui\\barrelmodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\ui\\barrelmodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\ui\\magazinemodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\ui\\magazinemodoptionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|d:\\godot\\godot-weapon-modifier-demo\\weaponmodsystem\\scripts\\demo\\demotargetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA0CE423-B4B3-4D9B-AA10-CD342645CE7B}|WeaponModSystem.csproj|solutionrelative:scripts\\demo\\demotargetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,68 +62,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeaponLoadoutController.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponLoadoutController.cs",
-              "RelativeDocumentMoniker": "Scripts\\Weapon\\WeaponLoadoutController.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponLoadoutController.cs",
-              "RelativeToolTip": "Scripts\\Weapon\\WeaponLoadoutController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T20:54:33.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BarrelModOptionButton.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\BarrelModOptionButton.cs",
-              "RelativeDocumentMoniker": "Scripts\\UI\\BarrelModOptionButton.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\BarrelModOptionButton.cs",
-              "RelativeToolTip": "Scripts\\UI\\BarrelModOptionButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T20:45:45.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CoreModOptionButton.cs",
               "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\CoreModOptionButton.cs",
               "RelativeDocumentMoniker": "Scripts\\UI\\CoreModOptionButton.cs",
               "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\CoreModOptionButton.cs",
               "RelativeToolTip": "Scripts\\UI\\CoreModOptionButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T20:45:03.372Z"
+              "WhenOpened": "2026-01-10T20:45:03.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MagazineModOptionButton.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\MagazineModOptionButton.cs",
-              "RelativeDocumentMoniker": "Scripts\\UI\\MagazineModOptionButton.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\MagazineModOptionButton.cs",
-              "RelativeToolTip": "Scripts\\UI\\MagazineModOptionButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "BarrelModOptionButton.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\BarrelModOptionButton.cs",
+              "RelativeDocumentMoniker": "Scripts\\UI\\BarrelModOptionButton.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\BarrelModOptionButton.cs",
+              "RelativeToolTip": "Scripts\\UI\\BarrelModOptionButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T20:42:25.893Z"
+              "WhenOpened": "2026-01-10T20:45:45.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DemoTargetDummy.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Demo\\DemoTargetDummy.cs",
-              "RelativeDocumentMoniker": "Scripts\\Demo\\DemoTargetDummy.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Demo\\DemoTargetDummy.cs",
-              "RelativeToolTip": "Scripts\\Demo\\DemoTargetDummy.cs",
+              "DocumentIndex": 2,
+              "Title": "MagazineModResource.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\MagazineModResource.cs",
+              "RelativeDocumentMoniker": "Scripts\\WeaponMods\\MagazineModResource.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\MagazineModResource.cs",
+              "RelativeToolTip": "Scripts\\WeaponMods\\MagazineModResource.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T20:29:44.995Z"
+              "WhenOpened": "2026-01-10T19:55:23.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,14 +111,105 @@
               "RelativeDocumentMoniker": "Scripts\\Weapon\\Weapon.cs",
               "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\Weapon.cs",
               "RelativeToolTip": "Scripts\\Weapon\\Weapon.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAwCsAAAANAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T20:00:15.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "WeaponModResource.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\WeaponModResource.cs",
+              "RelativeDocumentMoniker": "Scripts\\WeaponMods\\WeaponModResource.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\WeaponModResource.cs",
+              "RelativeToolTip": "Scripts\\WeaponMods\\WeaponModResource.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwCQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:54:34.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeaponData.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponData.cs",
+              "RelativeDocumentMoniker": "Scripts\\Weapon\\WeaponData.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponData.cs",
+              "RelativeToolTip": "Scripts\\Weapon\\WeaponData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:52:15.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DebugUi.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\DebugUi.cs",
+              "RelativeDocumentMoniker": "Scripts\\UI\\DebugUi.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\DebugUi.cs",
+              "RelativeToolTip": "Scripts\\UI\\DebugUi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T23:27:10.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MagazineModOptionButton.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\MagazineModOptionButton.cs",
+              "RelativeDocumentMoniker": "Scripts\\UI\\MagazineModOptionButton.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\UI\\MagazineModOptionButton.cs",
+              "RelativeToolTip": "Scripts\\UI\\MagazineModOptionButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T20:42:25.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DemoTargetDummy.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Demo\\DemoTargetDummy.cs",
+              "RelativeDocumentMoniker": "Scripts\\Demo\\DemoTargetDummy.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Demo\\DemoTargetDummy.cs",
+              "RelativeToolTip": "Scripts\\Demo\\DemoTargetDummy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T20:29:44.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeaponLoadoutController.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponLoadoutController.cs",
+              "RelativeDocumentMoniker": "Scripts\\Weapon\\WeaponLoadoutController.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponLoadoutController.cs",
+              "RelativeToolTip": "Scripts\\Weapon\\WeaponLoadoutController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T20:54:33.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Scripts\\Interfaces\\IDamageable.cs",
+              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeToolTip": "Scripts\\Interfaces\\IDamageable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T11:20:40.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BarrelModResource.cs",
               "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\BarrelModResource.cs",
               "RelativeDocumentMoniker": "Scripts\\WeaponMods\\BarrelModResource.cs",
@@ -144,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CoreModResource.cs",
               "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\CoreModResource.cs",
               "RelativeDocumentMoniker": "Scripts\\WeaponMods\\CoreModResource.cs",
@@ -153,42 +230,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T19:55:27.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MagazineModResource.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\MagazineModResource.cs",
-              "RelativeDocumentMoniker": "Scripts\\WeaponMods\\MagazineModResource.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\MagazineModResource.cs",
-              "RelativeToolTip": "Scripts\\WeaponMods\\MagazineModResource.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T19:55:23.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeaponModResource.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\WeaponModResource.cs",
-              "RelativeDocumentMoniker": "Scripts\\WeaponMods\\WeaponModResource.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\WeaponMods\\WeaponModResource.cs",
-              "RelativeToolTip": "Scripts\\WeaponMods\\WeaponModResource.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T19:54:34.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeaponData.cs",
-              "DocumentMoniker": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponData.cs",
-              "RelativeDocumentMoniker": "Scripts\\Weapon\\WeaponData.cs",
-              "ToolTip": "D:\\Godot\\Godot-Weapon-Modifier-Demo\\weaponmodsystem\\Scripts\\Weapon\\WeaponData.cs",
-              "RelativeToolTip": "Scripts\\Weapon\\WeaponData.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwA8AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T19:52:15.118Z"
             }
           ]
         }
